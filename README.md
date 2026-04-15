@@ -126,14 +126,4 @@ await contract.methods.ownerWithdraw(web3.utils.toWei("1", "ether"))
     .send({ from: ownerAddress });
 ```
 
-## Muhim E'tiroznomalar ⚠️
 
-1. Kontraktni noyob test tarmoqlarda (Testnet) sinab ko'rish
-2. Haqiqiy ishlatishdan oldin audit o'tkazish
-3. Private keys ni hech qachon ulashmaslik
-4. Gas xarajini hisobga olish
-
----
-**Version:** 1.0  
-**Lisenziya:** MIT  
-**Solidity Version:** ^0.8.0
